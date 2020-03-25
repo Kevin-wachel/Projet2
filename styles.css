@@ -1,0 +1,204 @@
+/* GENERALE */
+
+*
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+main
+{
+    display: flex;
+    text-align: justify;
+}
+
+.prenom
+{
+    color: cadetblue;
+}
+
+.souligner
+{
+    text-decoration: underline;
+    text-decoration-color: cadetblue;
+}
+
+h1
+{
+    text-transform: uppercase;
+}
+
+h2
+{
+    text-transform: uppercase;
+}
+
+body
+{
+    max-width: 900px;
+    margin: auto;
+    border: 1px cadetblue solid;
+}
+
+/*HEADER*/
+
+header
+{
+    display: flex;
+    height: 200px;   
+}
+
+#bloc_photo
+{
+    width: 35%;
+    background-color: cadetblue;
+    padding: 25px 0 25px 0;
+}
+
+img
+{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(image/photokw.jpg);
+}
+
+.photo
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px black solid;
+    overflow: hidden;
+    margin: auto;
+}
+
+#nom
+{
+    width: 65%;
+    text-align: center;
+}
+
+/*BLOC GAUCHE*/
+
+.bloc_gauche
+{
+    width: 35%;
+    background-color: cadetblue;
+}
+
+
+.bloc_gauche h2
+{
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: coral;
+    margin: 50px auto 50px auto;
+    color: cadetblue;
+}
+
+address
+{
+    font-style: normal;
+    padding-left: 20px;
+}
+
+#apropos p
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#loisirs
+{
+    padding-top: 250%;
+    padding-bottom: 20px;
+}
+
+.logos
+{
+    display: flex;
+	justify-content: space-around;
+}
+
+.logos i 
+{
+    font-size: 2em;
+    width: 2em;
+    text-align: center;
+    line-height: 2em;
+    background: cadetblue;
+    color: black;
+    border: 2px black solid;
+    border-radius: 50%
+}
+
+
+/*BLOC DROIT*/
+
+.bloc_droit
+{
+    width: 65%;
+}
+
+#formation, #experience
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#recommandation
+{
+    margin-left: 25px;
+}
+
+.formation1, .formation2, .formation3
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.title i
+{
+    color: cadetblue;
+    padding-right: 15px;
+}
+
+.title h2
+{
+    border-bottom: 2px solid cadetblue;
+    padding-bottom: 5px;
+}
+
+.date
+{
+    width: 30%;
+}
+
+.date i
+{
+    color: cadetblue;
+    padding-right: 15px;
+}
+
+.lieu
+{
+    width: 60%;
+    padding-left: 20px;
+}
+
+.exp1, .exp2, .exp3
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.recom
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 25px;
+}
