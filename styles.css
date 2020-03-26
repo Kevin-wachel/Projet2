@@ -202,3 +202,71 @@ address
     justify-content: space-between;
     margin-left: 25px;
 }
+
+/* PARTIE RESPONSIVE */
+
+@media all and (max-width: 900px)
+{
+    header 
+    {
+        flex-direction: column;
+    }
+
+    #bloc_photo
+    {
+    width: 100%;
+    background-color: cadetblue;
+    padding: 5px 0 5px 0;
+    }
+
+    #nom
+    {
+    width: 90%;
+    text-align: center;
+    }
+
+    main 
+    {
+        flex-direction: column-reverse;
+        padding-top: 100px;
+    }
+
+    h1
+    {
+        padding-top: 10px;
+        font-size: 200%;
+    }
+
+    .bloc_droit {
+        width: 90%;
+        margin: auto;
+    }
+
+    .bloc_gauche {
+        width: 100%;
+    }
+
+    address
+    {
+    font-style: normal;
+    text-align: center;
+    }
+
+    #loisirs
+    {
+    padding-top: 0%;
+    }
+}
+
+@media all and (max-width: 480px)
+{
+    h1
+    {
+        font-size: 150%;
+    }
+
+    h2
+    {
+        font-size: 120%;
+    }
+}
