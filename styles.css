@@ -295,19 +295,6 @@ address
     {
     padding-top: 0%;
     }
-}
-
-@media all and (max-width: 480px)
-{
-    h1
-    {
-        font-size: 150%;
-    }
-
-    h2
-    {
-        font-size: 120%;
-    }
 
     .nav
     {
@@ -342,5 +329,18 @@ address
     #toggle:checked + .menu 
     {
         display: block;
+    }
+}
+
+@media all and (max-width: 480px)
+{
+    h1
+    {
+        font-size: 150%;
+    }
+
+    h2
+    {
+        font-size: 120%;
     }
 }
