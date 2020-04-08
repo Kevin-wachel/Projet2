@@ -44,7 +44,7 @@ body
 .nav 
 {
     border-bottom: 1px solid #EAEAEB;
-    text-align: right;
+    text-align: center;
     height: 70px;
     line-height: 70px;
 }
@@ -150,7 +150,7 @@ address
 
 #loisirs
 {
-    padding-top: 250%;
+    padding-top: 175%;
     padding-bottom: 20px;
 }
 
@@ -307,6 +307,13 @@ address
     h2
     {
         font-size: 120%;
+    }
+
+    .nav
+    {
+        height: auto;
+        min-height: 70px;
+        line-height: 70px;
     }
 
     label 
