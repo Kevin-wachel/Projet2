@@ -41,18 +41,21 @@ body
 
 /*MENU*/
 
-.nav {
+.nav 
+{
     border-bottom: 1px solid #EAEAEB;
     text-align: right;
     height: 70px;
     line-height: 70px;
 }
 
-.menu {
+.menu 
+{
     margin: 0 30px 0 0;
 }
 
-.menu a {
+.menu a 
+{
     clear: right;
     text-decoration: none;
     color: gray;
@@ -60,7 +63,8 @@ body
     line-height: 70px;
 }
 
-label {
+label 
+{
     margin: 0 40px 0 0;
     font-size: 26px;
     line-height: 70px;
@@ -68,7 +72,9 @@ label {
     width: 26px;
     float: right;
 }
-#toggle {
+
+#toggle 
+{
     display: none;
 }
 
@@ -303,25 +309,29 @@ address
         font-size: 120%;
     }
 
-    label {
+    label 
+    {
         display: block;
         cursor: pointer;
     }
     
-    .menu {
+    .menu 
+    {
         text-align: center;
         width: 100%;
         display: none;
     }
     
-    .menu a {
+    .menu a 
+    {
         display: block;
         border-bottom: 1px solid #EAEAEB;
         margin: 0;
      
     }
     
-    #toggle:checked + .menu {
+    #toggle:checked + .menu 
+    {
         display: block;
     }
 }
