@@ -328,6 +328,7 @@ address
         display: none;
         overflow: hidden;
         position: relative;
+        margin-left: -40px;
     }
     
     nav ul li 
